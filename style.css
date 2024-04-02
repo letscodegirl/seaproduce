@@ -88,3 +88,12 @@
 
 /* carousel */
 
+/* logo */
+
+.logo {
+    width: 150px;
+    /* Adjust this value as needed */
+    height: auto;
+    /* This will keep the aspect ratio intact */
+}
+
