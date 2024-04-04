@@ -31,7 +31,7 @@ html {
   -moz-tab-size: 4; /* 3 */
   -o-tab-size: 4;
      tab-size: 4; /* 3 */
-  font-family: Montserrat, sans-serif; /* 4 */
+  font-family: Noto Sans KR, sans-serif; /* 4 */
   font-feature-settings: normal; /* 5 */
   font-variation-settings: normal; /* 6 */
 }
@@ -1216,7 +1216,7 @@ a {
 }
 .bg-stone-300 {
   --tw-bg-opacity: 1;
-  background-color: rgb(189 224 254 / var(--tw-bg-opacity));
+  background-color: rgb(13 64 79 / var(--tw-bg-opacity));
 }
 .bg-zinc-100 {
   --tw-bg-opacity: 1;
@@ -1330,7 +1330,7 @@ a {
   text-align: center;
 }
 .font-sans {
-  font-family: Montserrat, sans-serif;
+  font-family: Noto Sans KR, sans-serif;
 }
 .font-serif {
   font-family: Italiana, serif;
@@ -1377,7 +1377,7 @@ a {
   text-transform: uppercase;
 }
 .leading-\[0\.9\] {
-  line-height: 0.9;
+  line-height: -0.1;
 }
 .leading-none {
   line-height: 1;
