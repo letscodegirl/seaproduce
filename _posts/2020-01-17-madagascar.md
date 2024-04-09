@@ -4,11 +4,11 @@ title: 오징어
 description: 러시아산 냉동 오징어
 author: Lucy
 featured: true
-banner-image: /uploads/frozen squid/sq1.jpg
+banner-image: /uploads/frozen squid/this.jpg
 categories:
   - travel
   - madagascar
-featured_image: /uploads/frozen squid/sq2.jpg
+featured_image: /uploads/frozen squid/this.jpg
 seo:
   title: 'Madagascar: An Extraordinary Journey into the Wild'
   description: Embark on an extraordinary journey to Madagascar, a land of unique wildlife, stunning landscapes, and vibrant culture, where nature's wonders are found nowhere else on Earth.
@@ -21,7 +21,7 @@ seo:
 
 *Discover the Biodiversity and Untamed Beauty of the Red Island*
 
-![Madagascar](/uploads/frozen squid/sq2.jpg)
+![Madagascar](/uploads/frozen squid/this.jpg)
 
 Embark on an extraordinary journey to Madagascar, the Red Island that captivates with its unique wildlife, stunning landscapes, and vibrant culture. Nestled off the eastern coast of Africa, this biodiverse paradise is home to an array of plant and animal species found nowhere else on Earth, making it a destination unlike any other.
 
