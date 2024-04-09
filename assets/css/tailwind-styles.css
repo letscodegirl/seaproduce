@@ -1015,10 +1015,6 @@ a {
   margin-left: auto;
   margin-right: auto;
 }
-.my-6 {
-  margin-top: 1.5rem;
-  margin-bottom: 1.5rem;
-}
 .-ml-\[20\%\] {
   margin-left: -20%;
 }
@@ -1124,9 +1120,6 @@ a {
 .max-w-lg {
   max-width: 32rem;
 }
-.max-w-logo {
-  max-width: 50px;
-}
 .max-w-none {
   max-width: none;
 }
@@ -1136,6 +1129,9 @@ a {
 .max-w-screen-lg {
   max-width: 1024px;
 }
+.max-w-screen-md {
+  max-width: 768px;
+}
 .max-w-screen-sm {
   max-width: 640px;
 }
@@ -1144,9 +1140,6 @@ a {
 }
 .max-w-sm {
   max-width: 24rem;
-}
-.max-w-screen-md {
-  max-width: 768px;
 }
 .shrink-0 {
   flex-shrink: 0;
@@ -1181,9 +1174,6 @@ a {
 }
 .flex-nowrap {
   flex-wrap: nowrap;
-}
-.items-end {
-  align-items: flex-end;
 }
 .items-center {
   align-items: center;
@@ -1234,9 +1224,6 @@ a {
 .border-b {
   border-bottom-width: 1px;
 }
-.border-b-0 {
-  border-bottom-width: 0px;
-}
 .border-r-4 {
   border-right-width: 4px;
 }
@@ -1255,6 +1242,10 @@ a {
   --tw-border-opacity: 1;
   border-color: rgb(39 39 42 / var(--tw-border-opacity));
 }
+.bg-\[\#0D404F\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(13 64 79 / var(--tw-bg-opacity));
+}
 .bg-stone-100 {
   --tw-bg-opacity: 1;
   background-color: rgb(245 245 244 / var(--tw-bg-opacity));
@@ -1263,10 +1254,6 @@ a {
   --tw-bg-opacity: 1;
   background-color: rgb(231 229 228 / var(--tw-bg-opacity));
 }
-.bg-stone-300 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(214 211 209 / var(--tw-bg-opacity));
-}
 .bg-zinc-100 {
   --tw-bg-opacity: 1;
   background-color: rgb(244 244 245 / var(--tw-bg-opacity));
@@ -1274,10 +1261,6 @@ a {
 .bg-zinc-800 {
   --tw-bg-opacity: 1;
   background-color: rgb(39 39 42 / var(--tw-bg-opacity));
-}
-.bg-\[\#0D404F\] {
-  --tw-bg-opacity: 1;
-  background-color: rgb(13 64 79 / var(--tw-bg-opacity));
 }
 .bg-\[url\(\'\/uploads\/guides\/guide-2\.png\'\)\] {
   background-image: url('/uploads/guides/guide-2.png');
@@ -1508,13 +1491,6 @@ a {
 
 /* ----------- ADDITIONAL COMPONENTS  --------- */
 
-.noto-sans kr-<uniquifier> {
-    font-family: "Noto Sans KR", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: <weight>;
-    font-style: normal;
-}
-
 .hover\:bg-zinc-200:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(228 228 231 / var(--tw-bg-opacity));
@@ -1568,12 +1544,6 @@ a {
 }
 
 @media (min-width: 768px) {
-  .md\:col-span-2 {
-    grid-column: span 2 / span 2;
-  }
-  .md\:col-span-3 {
-    grid-column: span 3 / span 3;
-  }
   .md\:mb-16 {
     margin-bottom: 4rem;
   }
@@ -1592,9 +1562,6 @@ a {
   .md\:grid-cols-3 {
     grid-template-columns: repeat(3, minmax(0, 1fr));
   }
-  .md\:grid-cols-5 {
-    grid-template-columns: repeat(5, minmax(0, 1fr));
-  }
   .md\:flex-wrap {
     flex-wrap: wrap;
   }
@@ -1612,3 +1579,4 @@ a {
     padding-right: 0px;
   }
 }
+
