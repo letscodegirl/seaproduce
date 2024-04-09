@@ -31,7 +31,7 @@
 
 
     h1, h2, h3, h4  {
-        @apply font-serif mb-[0.5em];
+        @apply mb-[0.5em];
     }
 
     h1 {
