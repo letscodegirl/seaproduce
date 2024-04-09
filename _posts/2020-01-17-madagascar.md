@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Frozen Squid
+title: 오징어
 subtitle: Discover the Biodiversity and Untamed Beauty of the Red Island
-description: Embark on an extraordinary journey to Madagascar, a land of unique wildlife, stunning landscapes, and vibrant culture, where nature's wonders are found nowhere else on Earth.
+description: 러시아산 냉동 오징어
 author: Lucy
 featured: true
 banner-image: /uploads/frozen squid/sq1.jpg
