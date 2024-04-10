@@ -3,27 +3,27 @@ layout: default
 ---
 
 
-<section class="p-5p bg-cover bg-center flex items-center text-white min-h-80" style="background-image: url('{{page.banner-image}}')">
+<section class="p-5p bg-cover bg-center flex items-center min-h-80" style="background-image: url('{{page.banner-image}}')">
     <div class="">
-       <h2 class="text-[10vw] font-light mb-12 leading-[0.9]"> {{page.title}} </h2>
-       <h3 class="text-2xl uppercase max-w-screen-sm"> {{page.description}}</h3>
+       <h2 class="text-[10vw] mb-12 leading-[0.9]"> {{page.title}} </h2>
+       <h3 class="text-3xl p-4 max-w-screen-sm"> {{page.description}}</h3>
     </div>
   </section>
 
-  <section class="px-5p py-8 flex justify-between items-center border border-bottom border-zinc-800">
+  <section class="px-5p py-8 flex justify-between items-center">
 
-    <h1 class="text-4xl m-0 uppercase"> {{ page.subtitle }} </h1>
+    <h1 class="text-4xl uppercase"> {{ page.subtitle }} </h1>
 
   </section>
 
   <section>
 
 
-        <div class="intro pt-6 p-4 text-center margin-b-2 max-w-screen-lg mx-auto">
+        <div class="text-center">
 
         </div>
 
-        <div class="p-4 prose max-w-screen-lg mx-auto mb-8">
+        <div class="prose max-w-screen-lg mx-auto mb-8">
 
             {{content}}
 
@@ -33,6 +33,4 @@ layout: default
 
 
 </section>
-
-{% include related-posts.html %}
 
