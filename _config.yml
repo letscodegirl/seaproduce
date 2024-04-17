@@ -1,11 +1,11 @@
-# Define the collections for jekyll to create 
+# Define the collections for jekyll to create
 collections:
   posts:
     output: true
     permalink: /posts/:year/:slug
   archives:
     output: true
-    permalink: /achives/:slug
+    permalink: /archives/:slug
   products-presets:
     output: true
     permalink: /shop/presets/:slug
