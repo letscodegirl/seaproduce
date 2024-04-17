@@ -1005,9 +1005,6 @@ a {
 .col-span-full {
   grid-column: 1 / -1;
 }
-.m-0 {
-  margin: 0px;
-}
 .m-4 {
   margin: 1rem;
 }
@@ -1039,6 +1036,9 @@ a {
 .mb-8 {
   margin-bottom: 2rem;
 }
+.mb-9 {
+  margin-bottom: 2.25rem;
+}
 .ml-\[20\%\] {
   margin-left: 20%;
 }
@@ -1053,9 +1053,6 @@ a {
 }
 .mt-4 {
   margin-top: 1rem;
-}
-.mb-9 {
-  margin-bottom: 2.25rem;
 }
 .mt-7 {
   margin-top: 1.75rem;
@@ -1099,11 +1096,11 @@ a {
 .aspect-square {
   aspect-ratio: 1 / 1;
 }
-.h-full {
-  height: 100%;
-}
 .h-32 {
   height: 8rem;
+}
+.h-full {
+  height: 100%;
 }
 .max-h-0 {
   max-height: 0px;
@@ -1126,11 +1123,11 @@ a {
 .w-1\/2 {
   width: 50%;
 }
-.w-full {
-  width: 100%;
-}
 .w-32 {
   width: 8rem;
+}
+.w-full {
+  width: 100%;
 }
 .max-w-lg {
   max-width: 32rem;
@@ -1225,9 +1222,6 @@ a {
 }
 .rounded-lg {
   border-radius: 0.5rem;
-}
-.border {
-  border-width: 1px;
 }
 .border-2 {
   border-width: 2px;
@@ -1336,9 +1330,6 @@ a {
 .p-8 {
   padding: 2rem;
 }
-.p-3 {
-  padding: 0.75rem;
-}
 .px-4 {
   padding-left: 1rem;
   padding-right: 1rem;
@@ -1377,9 +1368,6 @@ a {
 .pt-12 {
   padding-top: 3rem;
 }
-.pt-6 {
-  padding-top: 1.5rem;
-}
 .text-center {
   text-align: center;
 }
@@ -1411,6 +1399,12 @@ a {
 }
 .text-\[10vw\] {
   font-size: 10vw;
+}
+.text-\[9vw\] {
+  font-size: 9vw;
+}
+.text-\[8vw\] {
+  font-size: 8vw;
 }
 .text-sm {
   font-size: 0.875rem;
@@ -1509,40 +1503,48 @@ a {
 
 /* ----------- ADDITIONAL COMPONENTS  --------- */
 
+
 .hover\:bg-zinc-200:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(228 228 231 / var(--tw-bg-opacity));
 }
+
 
 .hover\:text-rose-400:hover {
   --tw-text-opacity: 1;
   color: rgb(251 113 133 / var(--tw-text-opacity));
 }
 
+
 .hover\:text-rose-600:hover {
   --tw-text-opacity: 1;
   color: rgb(225 29 72 / var(--tw-text-opacity));
 }
+
 
 .hover\:text-stone-500:hover {
   --tw-text-opacity: 1;
   color: rgb(120 113 108 / var(--tw-text-opacity));
 }
 
+
 .hover\:text-stone-600:hover {
   --tw-text-opacity: 1;
   color: rgb(87 83 78 / var(--tw-text-opacity));
 }
 
+
 .hover\:opacity-0:hover {
   opacity: 0;
 }
+
 
 @media not all and (min-width: 640px) {
   .max-sm\:hidden {
     display: none;
   }
 }
+
 
 @media (min-width: 640px) {
   .sm\:columns-3 {
@@ -1560,6 +1562,7 @@ a {
     line-height: 2.25rem;
   }
 }
+
 
 @media (min-width: 768px) {
   .md\:mb-16 {
@@ -1590,6 +1593,7 @@ a {
     overflow-x: auto;
   }
 }
+
 
 @media (min-width: 1280px) {
   .xl\:px-0 {
