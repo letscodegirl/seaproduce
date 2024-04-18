@@ -86,3 +86,23 @@
     }
 }
 
+/* gallery */
+
+.gallery-item {
+    /* Style your gallery items, e.g., borders, shadows */
+}
+
+.square-image {
+    width: 100%;
+    height: 300px;
+    /* Adjust as necessary for your design */
+    object-fit: cover;
+}
+
+/* Responsive grid */
+@media (max-width: 600px) {
+    .grid {
+        grid-template-columns: 1fr;
+        /* Full width on smaller screens */
+    }
+}

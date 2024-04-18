@@ -5,7 +5,7 @@ layout: default
 
 <section class="p-5p bg-cover bg-center flex items-center min-h-80" style="background-image: url('{{page.banner-image}}')">
     <div class="">
-       <h2 class="text-[10vw] mb-12 leading-[0.9]"> {{page.title}} </h2>
+       <h2 class="text-[7vw] mb-12 leading-[0.9]"> {{page.title}} </h2>
        <h3 class="text-3xl p-4 max-w-screen-sm"> {{page.description}}</h3>
     </div>
   </section>
@@ -13,6 +13,21 @@ layout: default
   <section class="px-5p py-8 flex justify-between items-center">
 
     <h1 class="text-4xl uppercase"> {{ page.subtitle }} </h1>
+
+    <!-- Gallery Section -->
+    <section class="gallery my-5">
+      {% if page.gallery-images %}
+      <div class="container mx-auto">
+        <div class="grid grid-cols-3 gap-4">
+          {% for image in page.gallery-images %}
+          <div class="gallery-images">
+            <img src="{{ image.image-path }}" alt="{{ image.alt-text }}" class="{{ page.image-style }}">
+          </div>
+          {% endfor %}
+        </div>
+      </div>
+      {% endif %}
+    </section>
 
   </section>
 
@@ -28,8 +43,6 @@ layout: default
             {{content}}
 
         </div>
-
-        {% include social-share.html %}
 
 
 </section>
